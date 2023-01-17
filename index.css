@@ -21,11 +21,57 @@ body{
     height: 120vh;
     opacity: 1;
 }
+@media screen and (max-width: 600px) {
+    .main {
+        width: auto;
+        height: auto;
+        padding: 10px 0px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .login{
+        flex-direction: column;
+        font-size: 20px;
+    }
+    .we-ensure h1{
+        font-size: 5px;
+        width: auto;
+        font-weight: 100;
+        height: auto;
+    }
+    .buttons {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+}
 
 /* Navbar Start */
 .navbar{
     padding: 20px 0px 0px 50px;
     text-align: center;
+}
+@media screen and (max-width: 600px) {
+    .navbar {
+        height: auto;
+        padding: 10px 0px;
+        flex-direction: column;
+        gap: 10px;
+        color: white;
+    }
+    .navbar nav {
+        height: auto;
+        padding: 10px 0px;
+        flex-direction: column;
+        gap: 10px;
+        font-size: large;
+    }
+
+    .login {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 .navbar nav{
@@ -161,6 +207,40 @@ a {
 .fox{
     font-weight: 400;
 }
+@media screen and (max-width: 600px) {
+    .section-one {
+        border: 2px solid red;
+        height: auto;
+        padding: 20px 0px;
+        flex-direction: column;
+        gap: 10px;
+        display: table-column;
+    }
+    .people-icon{
+        max-width: 30px;
+        max-height: 30px;
+    }
+    .one {
+        height: auto;
+        padding: 20px 0px;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 10px;
+    }
+    .two {
+        height: auto;
+        padding: 20px 0px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .three {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
 /* End of Section one */
 /* Section 2 */
 .section2{
@@ -187,6 +267,45 @@ a {
     align-items: center;
     align-content: center;
     text-align: center;
+}
+@media screen and (max-width: 600px) {
+    .section2{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+    }
+    .section2 h2{
+        font-size: large;
+    }
+    .section2.people-icon{
+        max-width: 20px;
+        max-height: 20px;
+    }
+    .section2-one {
+        height: auto;
+        padding: 20px 0px;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 15px;
+        width: auto;
+    }
+    .section2-two {
+        height: auto;
+        padding: 20px 0px;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 15px;
+        width: auto;
+    }
+    .section2-three {
+        height: auto;
+        padding: 20px 0px;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 15px;
+        width: auto;
+    }
 }
 /* Section 3 */
 .industry{
@@ -234,6 +353,40 @@ a {
     justify-content:space-evenly;
     align-items: flex-start;
 }
+
+@media screen and (max-width: 600px) {
+    .industry{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+    }
+    .industry-top{
+        width: auto;
+        font-size: large;
+    }
+    .section2.people-icon{
+        max-width: 20px;
+        max-height: 20px;
+    }
+    .approval {
+        height: auto;
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 15px;
+        width: auto;
+    }
+    .approval-one {
+        height: auto;
+        padding: 20px 0px;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 15px;
+        width: auto;
+    }
+}
 /* Start of Sponsor Section */
 .vector{
     display: flex;
@@ -248,6 +401,15 @@ a {
 .vector-one img{
     height: 50px;
 }
+@media screen and (max-width: 600px) {
+    .vector{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+
+    }
+}
 /* Newsletter */
 .subscribe{
     height: 100px;
@@ -259,6 +421,19 @@ a {
     color: white;
     justify-content: space-around;
     align-items: center;
+}
+@media screen and (max-width: 600px) {
+    .subscribe{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        align-items: center;
+        padding: 10px;
+    }
+    .latest{
+        align-items: center;
+    }
 }
 
 .latest{
@@ -405,11 +580,29 @@ a {
     font-size: 18px;
   }
   
-  @media only screen and (max-width: 600px) {
-    .columns {
-      width: 100%;
+  @media screen and (max-width: 600px) {
+    .pricing {
+        height: auto;
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 15px;
+        width: auto;
     }
-  }
+    .container-prices {
+        height: auto;
+        padding: 20px 0px;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 15px;
+        width: auto;
+    }
+    .pricing-top{
+        height: auto;
+        width: auto;
+    }
+}
 /* End of Section 3 */
 /* Start of Sponsor Section */
 .sponsors{
@@ -425,7 +618,6 @@ a {
 .sponsor-one img{
     height: 50px;
 }
-/* End of Pricing */
 /* Start of branches */
 .branches{
     background-color: rgba(37,43,66,255);
@@ -459,6 +651,34 @@ a {
 .pingwig{
     height: 50%;
    max-width: 50%;
+}
+@media screen and (max-width: 600px) {
+    .branches-top {
+        height: auto;
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 15px;
+        width: auto;
+    }
+    .world h1{
+        width: auto;
+        padding: 20px;
+        height: auto;
+        font-size: 10px;
+    }
+    .world p{
+        width: auto;
+        padding: 20px;
+        height: auto;
+        font-size: 8px;
+    }
+    .pingwig img{
+        height: auto;
+        width: auto;
+    }
+    
 }
 
 /* End of branches */
