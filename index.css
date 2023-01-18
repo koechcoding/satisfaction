@@ -661,22 +661,32 @@ a {
         gap: 10px;
         font-size: 15px;
         width: auto;
+        /* align-items: center; */
+    }
+    .world{
+        align-items: center;
+        text-align: center;
+        padding-left: 10%;
     }
     .world h1{
+        color: white;
         width: auto;
         padding: 20px;
         height: auto;
-        font-size: 10px;
+        font-size: 30px;
+        align-items: center;
     }
     .world p{
         width: auto;
         padding: 20px;
         height: auto;
         font-size: 8px;
+        align-items: center;
     }
     .pingwig img{
-        height: auto;
-        width: auto;
+        height:200px;
+        width: 400px;
+        font-size: large;
     }
     
 }
@@ -773,6 +783,67 @@ a {
 .consult button:hover{
     background-color: rgb(23, 97, 139);
     color: white;
+}
+@media screen and (max-width: 600px) {
+    .footer footer{
+        padding-top: 70px;
+        height: auto;
+        width: auto;
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .company-info{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .legal{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .features, .get-touch, .resources{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .bottom-footer{
+        padding-top: 70px;
+        height: auto;
+        width: auto;
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .consult{
+        display: flex;
+        flex-direction: column;
+    }
+    .consult h1{
+        font-size: 20px;
+
+    }
+    .consult p{
+        font-size: 15px
+    }
+  
+      
+    
 }
 /* End of Consult */
 /* Footer */
